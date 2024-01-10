@@ -191,3 +191,84 @@ header {
   grid-row: 1 / span 4;
   width: 100%;
 }
+
+/* ************* */
+/* SECTION INTRODUCTION */
+/* ************* */
+
+.section-introduction {
+  padding: 0 3rem;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.intro-header {
+  max-width: 80rem;
+  margin: 0 auto;
+  margin-bottom: 4.4rem;
+}
+
+.intro-title {
+  color: var(--color-secondary);
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.intro-description {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.intro-box {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-flow: row;
+  align-items: center;
+  gap: 2.4rem 0;
+  margin-bottom: 10rem;
+}
+
+.intro-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding: 0 9rem;
+}
+.icon {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  border: 5px solid #ededed;
+  box-shadow: 0 0 0 3px #8adbd4;
+  background-color: #8adbd4;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  fill: #fff;
+}
+.intro-information p {
+  font-size: 1.4rem;
+  color: #2b2b2b;
+  /* padding-right: 14rem; */
+}
+.intro-information h2 {
+  font-size: 2.2rem;
+  color: #222;
+}
+
+.intro-img {
+  /* width: 60rem; */
+  height: 35rem;
+  padding: 2.4rem;
+  overflow: hidden;
+}
+
+.intro-img img {
+  width: 100%;
+  opacity: 0.8;
+}
