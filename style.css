@@ -347,3 +347,57 @@ header {
 .info-btn:hover {
   background-color: #dfdfdf;
 }
+
+/* $$$$$$$$$ */
+/* section service */
+/* $$$$$$$$$ */
+
+.section-service {
+  max-width: 136rem;
+  margin: 0 auto;
+}
+
+.img-doctor {
+  width: 120rem;
+  margin-inline: auto;
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.img-doctor h2 {
+  margin-bottom: 2.4rem;
+  font-size: 2.6rem;
+}
+
+.img-doctor p {
+  font-size: 2rem;
+  line-height: 1.35;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.img-doctor img {
+  width: 44rem;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  justify-self: end;
+}
+
+.service-btn {
+  color: #eded;
+  border: none;
+  border-radius: 50rem;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 1rem 5.6rem;
+  background-color: var(--color-primary);
+  transition: all 0.4s;
+  box-shadow: 0 0 3px var(--color-primary), 0 3px 6px #00000012;
+}
+.service-btn:hover {
+  background-color: var(--color-secondary);
+}
