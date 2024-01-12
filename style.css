@@ -401,3 +401,18 @@ header {
 .service-btn:hover {
   background-color: var(--color-secondary);
 }
+
+/* $$$$$$$$$ */
+/* section about */
+/* $$$$$$$$$ */
+
+.about-us {
+  width: 120rem;
+  margin-inline: auto;
+}
+
+.about-info {
+  margin-top: 2.4rem;
+  font-size: 2rem;
+  line-height: 1.35;
+}
