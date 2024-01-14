@@ -416,3 +416,92 @@ header {
   font-size: 2rem;
   line-height: 1.35;
 }
+
+/* $$$$$$$$$ */
+/* footer */
+/* $$$$$$$$$ */
+
+.footer-box {
+  width: 120rem;
+  margin-inline: auto;
+  padding-inline: 10rem;
+}
+footer {
+  padding-block: 12rem;
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.footer-links {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  align-items: start;
+}
+
+.footer-link:last-child {
+  justify-self: flex-end;
+}
+
+.footer-link h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.footer-li {
+  list-style: none;
+}
+
+.footer-li li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.footer-update {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-update input {
+  width: 23rem;
+  size: 2rem;
+  padding: 1rem;
+  border: 2px solid #fff;
+  font-size: 1.6rem;
+  color: #fff;
+  border-radius: 1rem;
+  background-color: var(--color-primary);
+}
+
+.footer-update input:focus {
+  outline: none;
+  background-color: #0c5d7a;
+}
+.footer-update input::placeholder {
+  color: #eeee;
+}
+.footer-update button {
+  background-color: #0c5d7a;
+  padding: 1rem 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-align: left;
+  font-size: 1.8rem;
+  box-shadow: 0 3px 12px #0c5d7a92;
+  transition: all ease 0.3s;
+}
+
+.footer-update button:hover {
+  background-color: #0b485e;
+  box-shadow: 0 2px 12px #0c5d7a92;
+}
+.footer-update button:active {
+  background-color: #0c5d7a;
+  box-shadow: 0 0px 12px #0c5d7a22;
+}
