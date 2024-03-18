@@ -490,9 +490,9 @@ footer {
   border-radius: 1rem;
   border: none;
   cursor: pointer;
-  color: #fff;
-  text-align: left;
   font-size: 1.8rem;
+  text-align: left;
+  color: #fff;
   box-shadow: 0 3px 12px #0c5d7a92;
   transition: all ease 0.3s;
 }
